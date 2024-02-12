@@ -24,7 +24,8 @@ export default function Coffee({
 					</p>
 				) : (
 					<p>
-						<BiSolidStar /> {rating} <span className="votes">{votes}</span>
+						<BiSolidStar color="#F6C768" /> {rating}{" "}
+						<span className="votes">({votes})</span>
 					</p>
 				)}
 				{available === false ? <p className="available">Sold Out</p> : ""}
